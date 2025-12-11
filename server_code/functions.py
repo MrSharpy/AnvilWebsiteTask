@@ -27,9 +27,10 @@ def checkLoginDetails(username, password):
 
 def getName(name):
   name = name.replace("@dbbstu.catholic.edu.au","")
+  name = name.replace("@dbb.catholic.edu.au","")
   name = name.split(".")
   firstName = name[0].capitalize()
   lastName = name[1].capitalize()
   fullname = firstName + " " + lastName
-  print(fullname)
+  return fullname
   
