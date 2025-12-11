@@ -1,0 +1,37 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'NZCCRS,RXYSSP'}
+    name: lbl_welcome
+    properties: {text: Welcome to the swimming carnival app}
+    type: Label
+  - layout_properties: {grid_position: 'FFKPPR,TGTEUO'}
+    name: lblError
+    properties: {text: 'Invalid Login: Username OR Password incorrect', visible: false}
+    type: Label
+  - layout_properties: {grid_position: 'VBIFLH,QQFYAV'}
+    name: txtbUsername
+    properties: {placeholder: Username}
+    type: TextBox
+  - layout_properties: {grid_position: 'JAEFAP,BYYIOW'}
+    name: txtbPassword
+    properties: {placeholder: Password}
+    type: TextBox
+  - event_bindings: {click: btnLogin_click}
+    layout_properties: {grid_position: 'CPAKXS,LJRMPC'}
+    name: btnLogin
+    properties:
+      text: |
+        Login
+    type: Button
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true

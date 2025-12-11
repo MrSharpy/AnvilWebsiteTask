@@ -3,7 +3,10 @@ unique_ids:
     standard-page.html: YEIKTROIHNKNRJB43FVNYHNU5MSHKJIE
     theme.css: HCYRM35YQKABDFL2N3XK5KLZLXUKPFT4
   forms:
-    Form1: 7JTJGOPV7V5RSVXYD2WFVCKXAPOTLLDS
+    Login: 7JTJGOPV7V5RSVXYD2WFVCKXAPOTLLDS
+    StudentPage: '1765416163952123622658475.05238'
+    TeacherPage: '1765416183692951667232440.2504'
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    functions: '176541659296946158081828.894135'
